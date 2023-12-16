@@ -31,6 +31,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 
 .card h1 {
@@ -54,3 +55,14 @@ main {
 }
 
 /* ----------  ---------- */
+main .card:nth-child(1) {
+    background: #E28625;
+    border-radius: 8px 0 0 8px;
+}
+main .card:nth-child(2) {
+    background: #006971;
+}
+main .card:nth-child(3) {
+    background: #004140;
+    border-radius: 0 8px 8px 0;
+}
