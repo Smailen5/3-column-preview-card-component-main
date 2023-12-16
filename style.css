@@ -33,6 +33,11 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+.card .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 
 .card h1 {
     font-size: 40px;
