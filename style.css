@@ -33,6 +33,7 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
 .card .card-container {
     display: flex;
     flex-direction: column;
@@ -61,13 +62,16 @@ main {
 }
 
 /* ---------- Singole Card ---------- */
+
 main .card:nth-child(1) {
     background: #E28625;
     border-radius: 8px 0 0 8px;
 }
+
 main .card:nth-child(2) {
     background: #006971;
 }
+
 main .card:nth-child(3) {
     background: #004140;
     border-radius: 0 8px 8px 0;
@@ -80,16 +84,25 @@ main .card:nth-child(3) {
     width: 146px;
     height: 48px;
     border-radius: 25px;
-    
 }
+
 .card-container #btn-1 {
     color: #E28625;
 }
+
 .card-container #btn-2 {
     color: #006971;
 }
+
 .card-container #btn-3 {
     color: #004140;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid #FFF;
+    color: #F2F2F2 !important;
 }
 
 /* ---------- Svg Cars ---------- */
