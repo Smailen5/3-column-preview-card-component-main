@@ -20,7 +20,7 @@ main {
     width: 920px;
     height: 500px;
     border-radius: 8px;
-    background: red;
+    /* background: red; */
     display: flex;
 }
 
@@ -109,4 +109,34 @@ main .card:nth-child(3) {
 
 .card-container img {
     width: 64px;
+}
+
+/* ---------- Media Query per Smarphone ---------- */
+
+@media (max-width: 768px) {
+    body {
+        min-height: 100%;
+        align-items: flex-start;
+    }
+
+    main {
+        flex-direction: column;
+        max-width: 90%;
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    main .card:nth-child(1) {
+        /* background: #E28625; */
+        border-radius: 8px 8px 0 0;
+    }
+
+    main .card:nth-child(3) {
+        /* background: #E28625; */
+        border-radius: 0 0 8px 8px;
+    }
 }
