@@ -28,12 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Smarphone](/images/Smarphone.jpeg)
+![Desktop](/images/Desktop.jpeg)
 
 
 ### Links
 
-- Solution URL: [Solutioe](https://github.com/Smailen5)
+- Solution URL: [Soluzione](https://github.com/Smailen5)
 - Live Site URL: [Sito](https://smailen5.github.io/3-column-preview-card-component-main/)
 
 ## My process
@@ -47,45 +48,23 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Ho utilizzato per la prima volta la regola !important, in quanto il selettore usato in precedenza era molto più specifico
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button:hover {
+    color: #F2F2F2 !important;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+In futuro vorrei aggiungere degli effiti di slide con JavaScript e magari animare le icone svg
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
+- Website - [Smailen](https://github.com/Smailen5)
+- Frontend Mentor - [@Smaylen5](https://www.frontendmentor.io/profile/Smailen5)
+- Linkedin - [@smailen](https://www.linkedin.com/in/smailen-vargas/)
+- Threads - [@smailen_art](https://www.threads.net/@smailen_art)
